@@ -4,10 +4,18 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>bin2dec</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>bin2dec converter</title>
   </head>
   <body>
-    <div id="app">Bin2Dec</div>
+    <div class="app">
+      <h1>Bin2Dec</h1>
+      <h2>Enter a binary number, get a decimal conversion.</h2>
+      <label for="binary"></label>
+      <input type="text" id="binary" name="binary" />
+      <button id="converter">Converter</button>
+      <p id="results"></p>
+    </div>
+    <script src="/index.js"></script>
   </body>
 </html>
